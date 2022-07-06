@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(255, 253, 253);
+}
+html main {
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  background-color: rgb(8, 10, 12);
+  color: aliceblue;
+}
+
+/*------------POLITICAS----------*/
+.seccion-pie {
+  font-size: 30px;
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+  color: black;
+  text-shadow: 90px 27px 9px rgba(0, 0, 0, 0.6);
+  border: 1px solid #1C6EA4;
+  border-radius: 20px 20px 20px 20px;
+}
+
+#hero-section a {
+  background-color: rgba(237, 182, 32, 0.526);
+  color: aliceblue;
+  transition: 0.5s;
+}
+#hero-section a:hover {
+  color: orangered;
+  background-color: rgb(255, 255, 255);
+  border: 2px groove black;
+}
+#hero-section span {
+  color: rgba(233, 207, 136, 0.819);
+}
+
+.tarjetaPremioImagen {
+  box-shadow: -19px 9px 44px 1px rgb(241, 172, 109);
+  -webkit-box-shadow: -19px 9px 44px 1px rgb(241, 172, 109);
+  -moz-box-shadow: -19px 9px 44px 1px rgb(241, 172, 109);
+}
+
+/*# sourceMappingURL=styles.css.map */
